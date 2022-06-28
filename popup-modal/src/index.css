@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ModalOuterContainer {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    position: fixed;
+    background-color: rgba(200, 200, 200, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal {
+    width: fit-content;
+    padding: 10px 30px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    color:slategrey;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+button:hover {
+    cursor: pointer;
+}
