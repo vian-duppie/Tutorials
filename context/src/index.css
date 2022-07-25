@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: fit-content;
+    padding: 5px 10px;
+    background-color: gainsboro;
+}
+
+.links-container {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    row-gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-container > div {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: black;
+    font-size: 28px;
+    text-decoration: none;
+}
+

@@ -1,5 +1,4 @@
 const Home = ( props ) => {
-
     //Onclick function on the Open secret message button
     //that will open/show the modal.
     const open = () => {

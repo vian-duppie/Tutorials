@@ -2,9 +2,7 @@ import Home from "./Home";
 import Modal from "./Modal";
 import React, {useState} from 'react';
 
-
 function App() {
-
     //Use a useState to store wether the modal should be closed
     //or open
     //Starting with a value of false the modal is closed
